@@ -808,8 +808,14 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			margin-left: 0;
+
 		}
 
+			/*added this myself*/
+			ul.actions.stacked.center{		
+				text-align: center;
+			}
+			
 			ul.actions.stacked li {
 				padding: 1.3rem 0 0 0;
 			}
